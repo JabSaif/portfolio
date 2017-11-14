@@ -1,0 +1,38 @@
+*
+{margin:0; padding: 0; box-sizing: border-box;}
+html{background-color:#f5f8fa}
+/****Heder****/
+header {width:100%; height:70px;}
+header .nav {margin-top: 20px; margin-left: 10px; position: fixed;}
+header .nav ul {list-style:none; display:flex;}
+header .nav ul li {padding-left:32px; }
+header .nav ul .search input {border-radius:20px; margin-left: 237px; padding-left: 15px; background-color: #f5f8fa; font-size: 1.5rem; border:1px solid #e6ecf0; margin-top: -5px; height:33px; }
+header .nav ul .search input:hover{border:2px solid #1DA1F2 }
+header .nav ul li img {height: 40px; width: 40px; border-radius: 60px; margin-top: -10px; padding: 0px;}
+header .nav ul a {color: #66757f;}
+header .nav ul a:hover {color: #1DA1F2; border-bottom: solid 2px #1DA1F2;}
+header .cover .profilPhoto img {height: 200px; width: 200px; border-radius: 200px; position: relative; top: 194px; left: 100px; display: inline-block; border:solid 5px snow;}
+header .cover .coverPhoto img {height: 250px; width: 100%; display: inline-block; margin-top: -138px;}
+header .cover .follow {position: relative; right: 38%; top: -1px;}
+header .cover .follow .github img {display: inline-block; position: relative; width: 40px; height: 40px; border-radius: 40px; float: right; right: 330px; padding: 0px;}
+header .cover .follow .twitter img {display: inline-block; position: relative; width: 40px; height: 40px; border-radius: 40px; float: right; right: 227px; padding:0px;}
+header .cover .follow .facebook img {display: inline-block; position: relative; width: 40px; height: 40px; border-radius: 40px; float: right; right: 125px; top: 0px; padding:0px; }
+/****End-Heder****/
+/****Main****/
+main {clear: both;}
+main #aside {width: 39%; height: 1000px; display: inline-block; margin-top: 5%; background-color: #f5f8fa; float: left}
+main #aside h3 {margin-top: 55px; margin-left: 90px;}
+main #aside .aboutMe {margin-top: 20px; letter-spacing: 4px; margin-left: 29px; margin-right: 29px;}
+main #aside .aboutMe p {border:solid 1px gray;padding-left: 22px;}
+main #principale {float: right; width:58%;height: 1000px; background-color:#f5f8fa; margin-top: 47px; margin-right: 30px }
+main #principale .cv {background-color: snow; width: 100%; height:78% }
+main #principale .cv .education img {width: 100px; height: 100px; border-radius: 100px; display: inline-block; position: relative; left: 233px}
+main #principale .cv .education p {margin-left: 9px;}
+main #principale .cv .work img {width: 100px; height: 100px; border-radius: 100px; display: inline-block; position: relative; left: 245px; margin-top: 10px; margin-bottom: 16px}
+main #principale .cv .work p {margin-left: 9px;}
+main #principale .cv .training img {width: 100px; height: 100px; display: inline-block; position: relative; left: 240px; margin-top: 10px; margin-bottom: 16px}
+main #principale .cv .training p {margin-left: 9px;}
+main #principale .cv .interest img {width: 100px; height: 100px; display: inline-block; position: relative; left: 240px; margin-top: 10px; margin-bottom: 16px}
+main #principale .cv .interest p {margin-left: 9px; display: inline-block; position: relative; top: 91px; left: -17px;}
+main #principale .cv .interest p:first-letter {font-size:2rem; font-family: georgia; color: red }
+/****End-Main****/

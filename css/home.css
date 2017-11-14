@@ -1,0 +1,19 @@
+*
+{margin:0; padding: 0; box-sizing: border-box;}
+/****Heder****/
+header {width:auto; height:70px;}
+header .nav{margin-top: 20px; margin-left: 10px; position: fixed;}
+header .nav ul {list-style:none; display:flex;}
+header .nav ul li {padding-left:32px; }
+header .nav ul .search input {border-radius:20px; margin-left: 237px; padding-left: 15px; background-color: #f5f8fa; font-size: 1.5rem; border:1px solid #e6ecf0; margin-top: -5px; height:33px; }
+header .nav ul .search input:hover{border:2px solid #1DA1F2 }
+header .nav ul li img {height: 40px; width: 40px; border-radius: 60px; margin-top: -10px; padding: 0px;}
+header .nav ul a {color: #66757f;}
+header .nav ul a:hover {color: #1DA1F2; border-bottom: solid 2px #1DA1F2;}
+/****End-Heder****/
+/****Main****/
+main .aside {float: left; width:25%; height: 1000px;}
+main .principale {float: right; width: 75%; height: 1000px;}
+main .principale .glyphicon {display: inline-block; position:relative; top: -4px; left: 13px;}
+main .principale textarea {height: 32px; width: 512px;margin-left: 20px; padding-left: 9px; padding-top: 6px; border-radius: 20px; border: solid 2px gray;}
+/****End-Main****/; 

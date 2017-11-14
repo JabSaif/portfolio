@@ -1,0 +1,18 @@
+*
+{margin:0; padding:0; box-sizing: border-box;}
+/****Header****/
+header {height: 200px; width: auto;}
+header .logo{margin-top: 26px; margin-left: 50px; font-size: 30px; letter-spacing: 3px; border: solid grey 5px; border-radius: 20px;
+			display:inline-block; padding: 5px; }
+header .login{display: inline-block; float:right; margin-top: 30px; margin-right: 37px;  }
+header .login form table{border-collapse: separate; border-spacing: 10px 0;}
+/****End-Header****/
+/****Main****/
+main{height: 2000px; width: auto;}
+main .sign{float: right; margin-right: 50px; margin-top: 50px}
+main .sign form table{border-collapse: separate; border-spacing: 20px}
+main .sign form table input{padding: 5px;}
+/****End-Main****/
+/****Footer****/
+footer .copy{display: inline-block; margin-left: 41%}
+/****End-Footer****/
